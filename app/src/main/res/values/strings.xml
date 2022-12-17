@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email Address:</string>
+    <string name="enter_the_email">Enter the email</string>
+    <string name="click">Click</string>
+    <string name="price">price</string>
+    <string name="shoes">shoes</string>
+    <string name="shoes1">shoes 1</string>
+    <string name="shoes2">shoes 2</string>
+    <string name="shoes3">shoes 3</string>
+    <string name="shoes4">shoes 4</string>
+    <string name="shoes5">shoes 5</string>
+    <string name="price1">150 SR</string>
+    <string name="price2">300 SR</string>
+    <string name="price3">500 SR</string>
+    <string name="price4">200 SR</string>
+    <string name="price5">600 SR</string>
+
+
+
+</resources>

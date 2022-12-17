@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userInputFragment">
+
+    <fragment
+        android:id="@+id/userInputFragment"
+        android:name="com.example.shopping.UserInputFragment"
+        android:label="fragment_user_input"
+        tools:layout="@layout/fragment_user_input" >
+        <action
+            android:id="@+id/action_userInputFragment_to_recyclerViewFragment"
+            app:destination="@id/recyclerViewFragment">
+            <argument android:name="shoes"
+                app:argType="string"/>
+
+        </action>
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerViewFragment"
+        android:name="com.example.shopping.RecyclerViewFragment"
+        android:label="fragment_recycler_view"
+        tools:layout="@layout/fragment_recycler_view" />
+</navigation>
